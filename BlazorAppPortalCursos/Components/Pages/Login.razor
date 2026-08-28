@@ -1,0 +1,47 @@
+﻿@page "/Login"
+@rendermode InteractiveServer
+@using BlazorAppPortalCursos.Models
+
+<div class="card shadow-sm">
+    <div class="card-header bg-primary text-white">
+        Acessar o Portal
+    </div>
+    <div class="card-body">
+        <EditForm Model="login" OnValidSubmit="Autenticar" FormName="formLogin">
+            <DataAnnotationsValidator />
+            <div class="mb-3">
+                <label>Usuário</label>
+                <InputText class="form-control" @bind-Value="login.Usuario" />
+                <ValidationMessage For="()=>login.Usuario"/>
+            </div>
+            <div class="mb-3">
+                <label>Senha</label>
+                <InputText type="password" class="form-control" @bind-Value="login.Senha" />
+                <ValidationMessage For="() => login.Senha" />
+            </div>
+            <div class="form-check mb-3">
+                <InputCheckbox class="form-check-input" @bind-Value="login.Lembrar"/>
+                <label class="form-check-label">Lembrar do usuário</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Autenticar</button>
+            @if (erro)
+            {
+                <div class="alert alert-danger mt-3 mb-0">
+                    Usuário ou senha inválidos
+                </div>
+            }
+        </EditForm>
+    </div>
+   
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private LoginModel login { get; set; } = new();
+    private bool erro = false;
+    private void Autenticar()
+    {
+        erro = !(login.Usuario == "admin" && login.Senha == "senha");
+    }
+
+}

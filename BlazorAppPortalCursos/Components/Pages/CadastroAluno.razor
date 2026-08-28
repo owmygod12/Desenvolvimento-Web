@@ -1,0 +1,63 @@
+﻿@page "/cadastro"
+@using BlazorAppPortalCursos.Models
+@rendermode InteractiveServer
+<EditForm Model="aluno" OnValidSubmit="Salvar" FormName="FormCadastro">
+    <DataAnnotationsValidator/>
+    <div class="mb-3">
+        <label>Nome Completo</label>
+        <InputText class="form-control" @bind-Value="aluno.Nome"/>
+        <ValidationMessage For="()=>aluno.Nome"/>
+    </div>
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <label>Idade</label>
+            <InputNumber class="form-control" @bind-Value="aluno.Idade" />
+            <ValidationMessage For="() => aluno.Idade" />
+        </div>
+        <div class="col-md-8 mb-3">
+            <label>Data de Nascimento</label>
+            <InputDate class="form-control" @bind-Value="aluno.DataNascimento" />
+            <ValidationMessage For="() => aluno.DataNascimento" />
+        </div>
+    </div>
+    <div class="mb-3">
+        <label>Turno</label>
+       <InputRadioGroup @bind-Value="aluno.Turno">
+           <div class="form-check form-check-inline">
+               <InputRadio class="form-check-input" Value="@("manha")"/>
+               <label class="form-check-label">Manhã</label>
+           </div>
+            <div class="form-check form-check-inline">
+                <InputRadio class="form-check-input" Value="@("noite")" />
+                <label class="form-check-label">Noite</label>
+            </div>
+           
+       </InputRadioGroup>
+        <ValidationMessage For="() => aluno.Turno" />
+    </div>
+    <div class="form-check mb-3">
+        <InputCheckbox class="form-check-input" @bind-Value="aluno.AceitaTermos"/>
+        <label class="form-check-label">Aceita os termos de uso</label>
+        <ValidationMessage For="() => aluno.AceitaTermos" />
+    </div>
+    <button type="submit" class="btn btn-success">Cadastrar</button>
+
+</EditForm>
+@if (salvo)
+{
+    <div class="alert alert-success mt-3">
+        @aluno.Nome cadastrado no turno @aluno.Turno
+    </div>
+}
+
+@code {
+    [SupplyParameterFromForm]
+    private AlunoModel aluno { get; set; } = new();
+    private bool salvo = false;
+    private void Salvar() => salvo = true;
+
+    // private void Salvar()
+    // {
+    //     salvo = true;
+    // }
+}

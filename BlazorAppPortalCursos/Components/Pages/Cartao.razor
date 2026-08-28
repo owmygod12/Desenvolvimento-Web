@@ -1,0 +1,29 @@
+﻿@page "/cartao"
+@rendermode InteractiveServer
+<header>
+    <h1>Rogério Alves</h1>
+    <h2>Desenvolvedor .Net</h2>
+
+</header>
+<main>
+    <section>
+        <p>Especiliasta em Sistemas Web.</p>
+    </section>
+    <button class="btn btn-primary" @onclick="AlternarContato">
+        @(mostrarContato?"Ocultar Contato":"Mostrar Contato")
+    </button>
+    @if (mostrarContato)
+    {
+        <aside>
+            <p>
+                email@exemplo.com
+            </p>
+        </aside>
+    }
+</main>
+
+
+@code {
+    private bool mostrarContato = false;
+    private void AlternarContato() => mostrarContato = !mostrarContato;
+}

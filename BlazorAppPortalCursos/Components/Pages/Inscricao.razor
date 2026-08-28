@@ -1,0 +1,44 @@
+﻿@page "/inscricao"
+@rendermode InteractiveServer
+@using BlazorAppPortalCursos.Models
+<h3>Formulário de Inscrição</h3>
+<EditForm Model="modelo" OnValidSubmit="EnviarInscricao" FormName="formInscricao">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <div class="mb-3">
+        <label>Nome</label>
+        <InputText id="nome" class="form-control" @bind-Value="modelo.Nome"/>
+        <ValidationMessage For="() => modelo.Nome"/>
+    </div>
+    <div class="mb-3">
+        <label>E-mail</label>
+        <InputText id="email" class="form-control" @bind-Value="modelo.Email" />
+        <ValidationMessage For="() => modelo.Email" />
+    </div>
+    <div class="mb-3">
+        <label>Curso</label>
+        <InputSelect id="curso" class="form-select" @bind-Value="modelo.Curso">
+            <option value="">Selecione um Curso</option>
+            <option value="web">Programação para Web</option>
+            <option value="poo">Programação Orientada a Objetos</option>
+            <option value="bd">Banco de Dados</option>
+        </InputSelect>
+        <ValidationMessage For="() => modelo.Curso" />
+    </div>
+    <div>
+        <label>Comentário</label>
+        <InputTextArea class="form-control" @bind-Value="modelo.Comentario"/>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+
+</EditForm>
+@if (enviado)
+{
+    <div class="alert alert-success mt-4">Inscrição do @modelo.Nome recebida</div>
+}
+@code {
+    [SupplyParameterFromForm]
+    private InscricaoModel modelo { get; set; } = new();
+    private bool enviado = false;
+    private void EnviarInscricao() => enviado = true;
+}
