@@ -1,5 +1,21 @@
-﻿<h3>CardCurso</h3>
+﻿@page "/Curso"
+@rendermode InteractiveServer
+
+<div class="card-curso">
+    <header class="card-curso__header">
+        <h3>@NomeCurso</h3>
+        <spam class="card-curso__carga">@CargaHoraria h</spam>
+    </header>
+    <section class="card-curso__corpo">
+        <p>@Resumo</p>
+    </section>
+</div>
 
 @code {
+    [Parameter] public string NomeCurso { get; set; } = "Curso de Programação Web";
+    [Parameter] public int CargaHoraria { get; set; } = 30;
+    [Parameter] public string Resumo { get; set; } = "Curso de programação Web utilizando a tecnologia da microsoft Blazor Server";
 
+
+}
 }
