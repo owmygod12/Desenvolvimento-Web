@@ -61,29 +61,29 @@ Carro carro = new Carro();
 
 Locacao locacao = new Locacao();
 
-Console.WriteLine("informe o id da locacao:");
-locacao.idLocacao = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("informe o id da locacao:");
+    locacao.idLocacao = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("informe o id do carro locado:");
-locacao.idcarro = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("informe o id do carro locado:");
+    locacao.idcarro = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("informe o id do cliente locado:");
-locacao.idCliente = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("informe o id do cliente locado:");
+    locacao.idCliente = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("informe o valor da locação:");
-locacao.ValorLocad = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("informe o valor da locação:");
+    locacao.ValorLocad = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("informe a data de início (yyyy-MM-dd):");
-locacao.DataInicio = DateTime.Parse(Console.ReadLine());
+    Console.WriteLine("informe a data de início (yyyy-MM-dd):");
+    locacao.DataInicio = DateTime.Parse(Console.ReadLine());
 
-Console.WriteLine("informe a data de fim (yyyy-MM-dd):");
-locacao.DataFim = DateTime.Parse(Console.ReadLine());
+    Console.WriteLine("informe a data de fim (yyyy-MM-dd):");
+    locacao.DataFim = DateTime.Parse(Console.ReadLine());
 
-Console.WriteLine("");
-Console.WriteLine("Dados da locação");
-Console.WriteLine($"Id Locação: {locacao.idLocacao}\r\n" +
-                  $"Id Carro: {locacao.idcarro}\r\n" +
-                  $"Id Cliente: {locacao.idCliente}\r\n" +
-                  $"Valor: {locacao.ValorLocad}\r\n" +
-                  $"Data Início: {locacao.DataInicio}\r\n" +
-                  $"Data Fim: {locacao.DataFim}");
+    Console.WriteLine("");
+    Console.WriteLine("Dados da locação");
+    Console.WriteLine($"Id Locação: {locacao.idLocacao}\r\n" +
+                      $"Id Carro: {locacao.idcarro}\r\n" +
+                      $"Id Cliente: {locacao.idCliente}\r\n" +
+                      $"Valor: {locacao.ValorLocad}\r\n" +
+                      $"Data Início: {locacao.DataInicio}\r\n" +
+                      $"Data Fim: {locacao.DataFim}");
