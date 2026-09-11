@@ -1,0 +1,39 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">BlazorAppPortalCursos</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="nav flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="cartao">
+                <span class="bi bi-house-door-fill-nav-menu " aria-hidden="true"></span> Cartão
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="inscricao">
+                <span class="bi bi-house-door-fill-nav-menu " aria-hidden="true"></span> Inscrição
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="cadastro">
+                <span class="bi bi-house-door-fill-nav-menu " aria-hidden="true"></span> Cadastro Aluno
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="login">
+                <span class="bi bi-house-door-fill-nav-menu " aria-hidden="true"></span> Autenticar
+            </NavLink>
+        </div>
+                  
+    </nav>
+</div>
+
