@@ -3186,11 +3186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\henrique.souza\\source\\repos\\BlazorAppPortalCursos\\BlazorAppPortalCursos\\BlazorAppPortalCursos.csproj",
+      "projectUniqueName": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\BlazorAppPortalCursos\\BlazorAppPortalCursos\\BlazorAppPortalCursos.csproj",
       "projectName": "BlazorAppPortalCursos",
-      "projectPath": "C:\\Users\\henrique.souza\\source\\repos\\BlazorAppPortalCursos\\BlazorAppPortalCursos\\BlazorAppPortalCursos.csproj",
+      "projectPath": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\BlazorAppPortalCursos\\BlazorAppPortalCursos\\BlazorAppPortalCursos.csproj",
       "packagesPath": "C:\\Users\\henrique.souza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henrique.souza\\source\\repos\\BlazorAppPortalCursos\\BlazorAppPortalCursos\\obj\\",
+      "outputPath": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\BlazorAppPortalCursos\\BlazorAppPortalCursos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
