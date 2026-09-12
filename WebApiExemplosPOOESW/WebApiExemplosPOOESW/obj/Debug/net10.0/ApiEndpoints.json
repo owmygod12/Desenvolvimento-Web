@@ -1,5 +1,241 @@
 [
   {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.FuncionarioController",
+    "Method": "CalcularFeriasFuncionario",
+    "RelativePath": "CalacularFeriasFuncionario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeFuncionario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sexoFuncionario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idadeFuncionario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "salarioFuncionario",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.FuncionarioController",
+    "Method": "CalcularDecimoTerceiro",
+    "RelativePath": "CalcularDecimoTerceiro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeFuncionario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sexoFuncionario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idadeFuncionario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "salarioFuncionario",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "mesesTrabalhados",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploEncapsulamentoContaCorrenteController",
+    "Method": "EmitirSaldoCorrentista",
+    "RelativePath": "EmitirSaldoCorrentista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCorrentista",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroConta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "saldoCorrentista",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploEncapsulamentoContaCorrenteController",
+    "Method": "ListarDadosCorrentista",
+    "RelativePath": "ListarDadosCorrentista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCorrentista",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroConta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "saldoCorrentista",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.FuncionarioController",
+    "Method": "ListarDadosFuncionario",
+    "RelativePath": "ListarDadosFuncionario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeFuncionario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sexoFuncionario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idadeFuncionario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "salarioFuncionario",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploEncapsulamentoContaCorrenteController",
+    "Method": "SacarValorCorrentista",
+    "RelativePath": "SacarValorCorrentista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCorrentista",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroConta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ValorSaque",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "WebApiExemplosPOOESW.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

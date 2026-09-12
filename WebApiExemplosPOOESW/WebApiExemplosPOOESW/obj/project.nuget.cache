@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "gFTrRVfCyMo=",
+  "dgSpecHash": "lYtkpv68w1o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rogerio.conceicao\\source\\repos\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj",
+  "projectFilePath": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rogerio.conceicao\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
-    "C:\\Users\\rogerio.conceicao\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
-    "C:\\Users\\rogerio.conceicao\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.3\\swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512",
-    "C:\\Users\\rogerio.conceicao\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.3\\swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512",
-    "C:\\Users\\rogerio.conceicao\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.3\\swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512"
+    "C:\\Users\\henrique.souza\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "C:\\Users\\henrique.souza\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
+    "C:\\Users\\henrique.souza\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.3\\swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512",
+    "C:\\Users\\henrique.souza\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.3\\swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512",
+    "C:\\Users\\henrique.souza\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.3\\swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rogerio.conceicao\\source\\repos\\WebApiExemplosPOOESW\\",
+  "WorkspaceRootPath": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|c:\\users\\rogerio.conceicao\\source\\repos\\webapiexemplospooesw\\webapiexemplospooesw\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|solutionrelative:webapiexemplospooesw\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\webapiexemplospooesw\\webapiexemplospooesw\\controllers\\exemploencapsulamentocontacorrentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|solutionrelative:webapiexemplospooesw\\controllers\\exemploencapsulamentocontacorrentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|c:\\users\\rogerio.conceicao\\source\\repos\\webapiexemplospooesw\\webapiexemplospooesw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\webapiexemplospooesw\\webapiexemplospooesw\\model\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|solutionrelative:webapiexemplospooesw\\model\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\webapiexemplospooesw\\webapiexemplospooesw\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|solutionrelative:webapiexemplospooesw\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\webapiexemplospooesw\\webapiexemplospooesw\\model\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|solutionrelative:webapiexemplospooesw\\model\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\webapiexemplospooesw\\webapiexemplospooesw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|solutionrelative:webapiexemplospooesw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\webapiexemplospooesw\\webapiexemplospooesw\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|solutionrelative:webapiexemplospooesw\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExemploEncapsulamentoContaCorrenteController.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Controllers\\ExemploEncapsulamentoContaCorrenteController.cs",
+              "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Controllers\\ExemploEncapsulamentoContaCorrenteController.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Controllers\\ExemploEncapsulamentoContaCorrenteController.cs",
+              "RelativeToolTip": "WebApiExemplosPOOESW\\Controllers\\ExemploEncapsulamentoContaCorrenteController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T13:33:11.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ContaCorrente.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Model\\ContaCorrente.cs",
+              "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Model\\ContaCorrente.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Model\\ContaCorrente.cs",
+              "RelativeToolTip": "WebApiExemplosPOOESW\\Model\\ContaCorrente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T13:25:30.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Controllers\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Controllers\\FuncionarioController.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Controllers\\FuncionarioController.cs",
+              "RelativeToolTip": "WebApiExemplosPOOESW\\Controllers\\FuncionarioController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T12:49:14.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Model\\Funcionario.cs",
+              "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Model\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Model\\Funcionario.cs",
+              "RelativeToolTip": "WebApiExemplosPOOESW\\Model\\Funcionario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T12:36:39.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rogerio.conceicao\\source\\repos\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Program.cs",
               "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Program.cs",
-              "ToolTip": "C:\\Users\\rogerio.conceicao\\source\\repos\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Program.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Program.cs",
               "RelativeToolTip": "WebApiExemplosPOOESW\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-12T12:22:11.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\rogerio.conceicao\\source\\repos\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\rogerio.conceicao\\source\\repos\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Properties\\launchSettings.json",
               "RelativeToolTip": "WebApiExemplosPOOESW\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-09-12T12:18:52.535Z",
               "EditorCaption": ""
