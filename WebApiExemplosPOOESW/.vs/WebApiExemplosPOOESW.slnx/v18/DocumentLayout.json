@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|solutionrelative:webapiexemplospooesw\\model\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\webapiexemplospooesw\\webapiexemplospooesw\\model\\exemploautopropriedadecontacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|solutionrelative:webapiexemplospooesw\\model\\exemploautopropriedadecontacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\webapiexemplospooesw\\webapiexemplospooesw\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2EEE0FB-B3C4-D653-113B-E06704DD7D22}|WebApiExemplosPOOESW\\WebApiExemplosPOOESW.csproj|solutionrelative:webapiexemplospooesw\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExemploAutoPropriedadeContaCorrente.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Model\\ExemploAutoPropriedadeContaCorrente.cs",
+              "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Model\\ExemploAutoPropriedadeContaCorrente.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Model\\ExemploAutoPropriedadeContaCorrente.cs",
+              "RelativeToolTip": "WebApiExemplosPOOESW\\Model\\ExemploAutoPropriedadeContaCorrente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T14:08:55.09Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,7 +61,7 @@
               "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Controllers\\ExemploEncapsulamentoContaCorrenteController.cs",
               "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Controllers\\ExemploEncapsulamentoContaCorrenteController.cs",
               "RelativeToolTip": "WebApiExemplosPOOESW\\Controllers\\ExemploEncapsulamentoContaCorrenteController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwE4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-12T13:33:11.112Z",
               "EditorCaption": ""
@@ -57,14 +74,14 @@
               "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Model\\ContaCorrente.cs",
               "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Model\\ContaCorrente.cs",
               "RelativeToolTip": "WebApiExemplosPOOESW\\Model\\ContaCorrente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-12T13:25:30.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FuncionarioController.cs",
               "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Controllers\\FuncionarioController.cs",
               "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Controllers\\FuncionarioController.cs",
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Model\\Funcionario.cs",
               "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Model\\Funcionario.cs",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Program.cs",
               "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Program.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\WebApiExemplosPOOESW\\WebApiExemplosPOOESW\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApiExemplosPOOESW\\Properties\\launchSettings.json",
