@@ -1,6 +1,6 @@
 ﻿namespace WebApiExemplosPOOESW.Model
 {
-    public class PessoaJuridica
+    public class PessoaJuridica: Pessoa
     {
         public string Cnpj { get; set; }
         public string RazaoSocial { get; set; }

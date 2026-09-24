@@ -1,10 +1,10 @@
 ﻿namespace WebApiExemplosPOOESW.Model
 {
-    public class PessoaFisica
+    public class PessoaFisica: Pessoa
     {
         public string Cpf { get; set; }
         public DateTime DataNascimento { get; set; }
-        public string sexo { get; set; }
+        public string Sexo { get; set; }
 
 
     }
