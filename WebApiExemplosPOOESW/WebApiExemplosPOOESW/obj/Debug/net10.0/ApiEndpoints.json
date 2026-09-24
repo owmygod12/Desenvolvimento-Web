@@ -88,6 +88,42 @@
   },
   {
     "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploEncapsulamentoContaCorrenteController",
+    "Method": "DepositarValorCorrentista",
+    "RelativePath": "DepositarValorCorrentista",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCorrentista",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroConta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ValorDeposito",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploEncapsulamentoContaCorrenteController",
     "Method": "EmitirSaldoCorrentista",
     "RelativePath": "EmitirSaldoCorrentista",
     "HttpMethod": "GET",
@@ -107,6 +143,118 @@
       {
         "Name": "saldoCorrentista",
         "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploPolimorfismoPessoaController",
+    "Method": "RetonrnaDadosPessoaFisica",
+    "RelativePath": "ExemploPolimorfismoRetornaDadosPessoaFisica",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomePessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "enderecoPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefonePessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "emailPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cpfPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dataNascimentoPessoa",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "sexo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploPolimorfismoPessoaController",
+    "Method": "RetonrnaDadosPessoaJuridica",
+    "RelativePath": "ExemploPolimorfismoRetornaDadosPessoaJuridica",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomePessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "enderecoPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefonePessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "emailPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cnpjPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "razaoSocialPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nomeFantasiaPessoa",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -200,10 +348,163 @@
     ]
   },
   {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploHerancaPessoaController",
+    "Method": "RetonrnaDadosPessoa",
+    "RelativePath": "RetornaDadosPessoa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomePessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "enderecoPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefonePessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "emailPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploHerancaPessoaController",
+    "Method": "RetonrnaDadosPessoaFisica",
+    "RelativePath": "RetornaDadosPessoaFisica",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomePessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "enderecoPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefonePessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "emailPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cpfPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dataNascimentoPessoa",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "sexo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploHerancaPessoaController",
+    "Method": "RetonrnaDadosPessoaJuridica",
+    "RelativePath": "RetornaDadosPessoaJuridica",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomePessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "enderecoPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefonePessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "emailPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cnpjPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "razaoSocialPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nomeFantasiaPessoa",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "WebApiExemplosPOOESW.Controllers.ExemploEncapsulamentoContaCorrenteController",
     "Method": "SacarValorCorrentista",
     "RelativePath": "SacarValorCorrentista",
-    "HttpMethod": "GET",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

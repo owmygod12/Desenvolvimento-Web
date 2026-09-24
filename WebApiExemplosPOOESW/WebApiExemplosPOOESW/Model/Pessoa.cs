@@ -8,7 +8,7 @@
         public string Email { get; set; }
 
 
-        public string RetornarDadosPessoa()
+        public virtual string RetornarDadosPessoa()
         {
             return $"Dados Pessoa - Classe pai \r\n" +
                    $"Nome: {Nome} \r\n" +
