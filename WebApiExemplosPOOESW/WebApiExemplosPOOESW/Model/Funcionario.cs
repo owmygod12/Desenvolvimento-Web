@@ -1,28 +1,20 @@
 ﻿namespace WebApiExemplosPOOESW.Model
 {
-    public class Funcionario
+    public abstract class Funcionario
     {
-        public string nome;
-        public string sexo;
-        public int idade;
-        public double salario;
+        public string nome { get; set; }
+        public string Cpf { get; set; }
+        public string Cargo { get; set; }
 
-        public double CalcularDecimoTerceiro(int mesesTrabalhados)
-        {
-            double decimoTerceiro;
-            decimoTerceiro = salario * mesesTrabalhados /12 ;
-            return decimoTerceiro;
-        }
 
-        public double calcularFerias()
+        public string RetornarDadosFuncionario()
         {
-            double ferias = salario + salario / 3;
-            return ferias;
+            return $"Dados do Funcionário\r\n" +
+                   $"Nome: {nome} \r\n" +
+                   $"CPF: {Cpf} \r\n" +
+                   $"Cargo: {Cargo} \r\n";
         }
-
-        internal double CalcularDecimoTerceiro(object mesesTrabalhados)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract decimal CalcularSalario();
     }
 }
+
