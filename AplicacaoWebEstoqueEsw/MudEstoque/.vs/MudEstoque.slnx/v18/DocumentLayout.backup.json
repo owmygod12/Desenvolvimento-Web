@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\aplicacaowebestoqueesw\\mudestoque\\mudestoque\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|solutionrelative:mudestoque\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\aplicacaowebestoqueesw\\mudestoque\\mudestoque\\models\\movimentacaoestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|solutionrelative:mudestoque\\models\\movimentacaoestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\aplicacaowebestoqueesw\\mudestoque\\mudestoque\\models\\enums\\tipomovimentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|solutionrelative:mudestoque\\models\\enums\\tipomovimentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\aplicacaowebestoqueesw\\mudestoque\\mudestoque\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|solutionrelative:mudestoque\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\aplicacaowebestoqueesw\\mudestoque\\mudestoque\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|solutionrelative:mudestoque\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|c:\\users\\henrique.souza\\source\\repos\\desenvolvimento-web\\aplicacaowebestoqueesw\\mudestoque\\mudestoque\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D051CB-899D-41A7-B5A9-39062D9906A9}|MudEstoque\\MudEstoque.csproj|solutionrelative:mudestoque\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TipoMovimentacao.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\Enums\\TipoMovimentacao.cs",
+              "RelativeDocumentMoniker": "MudEstoque\\Models\\Enums\\TipoMovimentacao.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\Enums\\TipoMovimentacao.cs",
+              "RelativeToolTip": "MudEstoque\\Models\\Enums\\TipoMovimentacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T00:45:29.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovimentacaoEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\MovimentacaoEstoque.cs",
+              "RelativeDocumentMoniker": "MudEstoque\\Models\\MovimentacaoEstoque.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\MovimentacaoEstoque.cs",
+              "RelativeToolTip": "MudEstoque\\Models\\MovimentacaoEstoque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T00:45:09.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fornecedor.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\Fornecedor.cs",
+              "RelativeDocumentMoniker": "MudEstoque\\Models\\Fornecedor.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\Fornecedor.cs",
+              "RelativeToolTip": "MudEstoque\\Models\\Fornecedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T00:44:40.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Estoque.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\Estoque.cs",
+              "RelativeDocumentMoniker": "MudEstoque\\Models\\Estoque.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\Estoque.cs",
+              "RelativeToolTip": "MudEstoque\\Models\\Estoque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T00:44:06.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "MudEstoque\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\Produto.cs",
+              "RelativeToolTip": "MudEstoque\\Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T00:43:42.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "MudEstoque\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\henrique.souza\\source\\repos\\Desenvolvimento-Web\\AplicacaoWebEstoqueEsw\\MudEstoque\\MudEstoque\\Models\\Categoria.cs",
+              "RelativeToolTip": "MudEstoque\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T00:43:22.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
